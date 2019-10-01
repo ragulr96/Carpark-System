@@ -3,6 +3,7 @@ import java.util.Date;
 
 public class motorBike extends Abstract {
     private double engineCapacity;
+    private int wheels;
 
     public motorBike(String vehicleName, String vehicleNum, int wheeler,String date, double engineCapacity){
         super(vehicleName , vehicleNum , wheeler, date);
