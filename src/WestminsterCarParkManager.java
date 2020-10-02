@@ -13,7 +13,7 @@ public class WestminsterCarParkManager implements CarParkManager {
 
         public static void main(String[] args) {
             System.out.println("                        -------------------------------------");
-            System.out.println("                        >> WELCOME TO WESTMINSTER CAR_PARK <<");
+            System.out.println("                        >> WELCOME TO WESTMINSTER CAR_PARK SYSTEM <<");
             System.out.println("                        =====================================");
 
             Calendar cal = Calendar.getInstance();
@@ -361,11 +361,11 @@ public class WestminsterCarParkManager implements CarParkManager {
                 if (hour1 <= 3) {
 
                     cost = hour1 * 3;
-                    System.out.println("The cost is 3$ per hour : " + cost + "$");
+                    System.out.println("The cost is $3 per hour : " + cost + "$");
                 } else if(hour1 <= 24){
 
                     cost = (hour1 - 3) + 9;
-                    System.out.println("The cost is 9$ for first 3hour and 1$ per hour : " + cost + "$");
+                    System.out.println("The cost is $9 for first 3hour and 1$ per hour : " + cost + "$");
                 }
             }
 
